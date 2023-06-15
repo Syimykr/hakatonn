@@ -1,0 +1,17 @@
+@media only screen and (max-width: 900px) {
+   .modal1{
+    display: block;
+    cursor: pointer;
+   }
+   .modal2 {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+    .burger-menu-left .bar1,
+    .burger-menu-right .bar2{
+      display: none;
+    }
+}

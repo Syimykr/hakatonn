@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* /////////////////burger menu///////////////////// */
 body{
-    background-color: rgba(219, 230, 239, 0.679);
-    background-repeat: no-repeat;
-    background-size:cover;
+    background: #649173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
 }
 
 header {
@@ -21,7 +23,10 @@ header {
     justify-content: space-evenly;
 }
 
-
+.container{
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(232, 232, 11);
+}
 
 .bar1,
 .bar2 {
@@ -53,16 +58,16 @@ li {
     width: 60px;
     border-radius: 20%;
     display: none;
-   }
+}
    
-   .modal1{
+.modal1{
    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcg1R2j7YMLaEpNkNmKZlEK7dkIHzXFnuDlg&usqp=CAU');
    background-size: contain;
    height: 60px;
    width: 60px;
    border-radius: 20%;
    display: none;
-   }
+}
    
 .hidden {
     display: none;
@@ -70,7 +75,9 @@ li {
 .hidden2 {
     display: none;
 }
+/* /////////////////burger menu///////////////////// */
 
+/* ////////////////////mian telegram///////////////////// */
 main{
     padding-top: 300px;
     width: 100%;
@@ -107,7 +114,11 @@ main{
 .text1{
     width: 400px;
     height: 200px;
+    font-family: 'Tilt Prism', cursive;
+    color: #424040;
 }
+
+
 
 .bot__t{
     display: flex;
@@ -125,41 +136,44 @@ main{
     height: 35px;
     cursor: pointer;
 }
+/* ////////////////////mian telegram///////////////////// */
 
-#first_swip{
-    width: 100%;
-    height: 100%;
+/* /////////////////////////sect3//////////////////////////// */
+#sect1{
+ width: 100%;
+ height: 100%;
+ padding-top: 100px;
+ padding-bottom: 100px;
 
 }
 
 .conteiner3{
-    width: 95%;
-    height:500px;
-    margin: 0 0 0 30px;
-    padding-bottom: 40px;
+    width:700px;
+    height:400px;
+    padding-bottom: 200px;
+    padding-right: 400px;
 }
 
-swiper-container {
-    width: 100%;
-    height: 100%;
-  }
 
-  swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+#sect1 .swiper {
+ width: 950px;
+ height: 400px;
+}
 
-  swiper-slide img {
+
+
+#sect1 .swiper-slide img {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: cover;
-    background-size: contain;
-  }
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
 
+
+/* /////////////////////////sect3//////////////////////////// */
 #second_sec{
     padding-top: 50px;
     padding-bottom: 60px;
@@ -188,13 +202,11 @@ swiper-container {
     display: flex;
     column-gap: 80px;
 }
-
-
-
+/* ///////////////////accordion////////////////////// */
 #accrodionSection {
     padding: 100px 0;
-    
-    color: white;
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(11, 11, 11);
 }
 
 .accrodion__name {
@@ -222,17 +234,172 @@ swiper-container {
 .accrodion__content p {
     font-size: 20px;
     padding: 20px 0;
+    color: rgb(73, 70, 70);
+}
+/* ///////////////////accordion////////////////////// */
+
+/* /////////////swiper bloc1/////////////  */
+#sect3 {
+    position: relative;
+    height: 100%;
+    width: 100%; 
 }
 
+.sect_conteiner2 {
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.block1{
+    padding-top: 80px;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 50px;
+    padding-right: 500px;
+    
+}
+
+.swiper {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-cube-shadow{
+    display: none;
+}
+
+.block1 .swiper-slide img{
+    border-radius: 10%;
+    text-align: center;
+    background-attachment: fixed;
+}
+/* /////////////swiper bloc1/////////////  */
+
+
+/* //////////////swiper block2///////////// */
+.block2{
+   width: 250px;
+   height: 300px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+
+.swiper {
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+/* //////////////swiper block2///////////// */
+
+
+/* /////////////block3////////////// */
+.block3{
+    width: 900px;
+    height: 300px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 200px;
+    
+}
+
+.swiper3 {
+    width: 100%;
+    height: 100%;
+}
+
+.block3 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block3 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+/* /////////////block3////////////// */
+
+/* ///////////////video/////////////// */
+#sect4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.intro{
+    max-height:100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.video_media{
+    width: 99%;
+}
+/* ///////////////video/////////////// */
+
+/* ////////////////////search block////////////////////// */
+#sect5{
+    width: 100%;
+    height: 100%;
+    font-family: 'Tilt Prism', cursive;
+}
 
 .container6 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top:40px;
     padding-bottom: 40px;
     column-gap: 50px;
+}
+
+.selected-product-image{
+ width: 300px;
+ height: 200px;
+ background-attachment: fixed;
 }
 
 .product-list {
@@ -268,9 +435,18 @@ swiper-container {
     padding-right: 50px;
 }
 
+#result{
+    width: 485px;
+    height: 200px;
+}
+
+/* ////////////////////search block////////////////////// */
+
+/* /////////////////////footer block////////////////////// */
 footer{
     width: 100%;
     height: 100%;
+    font-family: 'Tilt Prism', cursive;
 }
 
 .conteiner7{
@@ -300,3 +476,4 @@ h1{
     display: flex;
     column-gap: -50px;
 }
+/* /////////////////////footer block////////////////////// */

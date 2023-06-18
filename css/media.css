@@ -7,11 +7,51 @@
     display: block;
     cursor: pointer;
   }
+
+  .burger-menu-left .bar1,
+  .burger-menu-right .bar2{
+    display: none;
+  }
+
+  .conteiner3{
+    padding:240px 370px 0 0px;
+  }
+  #sect1 .swiper{
+    width: 500px;
+    height: 300px;
+  }
+
+  #sect3{
+    overflow: hidden;
+  }
+
+  .block1{
+    padding:0 300px 0 0;
+  }
+
+  .block3{
+    margin: 40px 0px 50px 80px;
+    width: 650px;
+    height: 250px;
+    
+  }
+
+  .block3 .swiper-slide img{
+    width: 650px;
+    height: 250px;
+    
+  }
 }
 
-@media only screen and (max-width: 900px) {
-    .burger-menu-left .bar1,
-    .burger-menu-right .bar2{
-      display: none;
-    }
+@media only screen and (max-width: 740px){
+  .conteiner3{
+    padding:240px 450px 0 0px;
+  }
+
+  .block3{
+    margin: 40px 0px 50px 40px;
+    width: 650px;
+    height: 250px;
+    
+  }
 }

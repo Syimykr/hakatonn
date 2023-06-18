@@ -55,3 +55,27 @@
     
   }
 }
+
+@media only screen and (max-width: 500px){
+  .conteiner3{
+    padding:240px 698px 0 0px;
+  }
+  #sect1 .swiper{
+    width: 350px;
+    height: 100px;
+  }
+
+  #sect3{
+    overflow: hidden;
+  }
+
+.container5{
+  width: 300px;
+  height: 100px;
+}
+
+.accrodion__name{
+  width: 300px;
+  height: 100px;
+}
+}
